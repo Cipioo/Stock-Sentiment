@@ -1,0 +1,15 @@
+== Stock Sentiment ==
+
+Stock Sentiment gives a number for each stock. The higher the number the more positive recent news articles have been for that particular stock.
+
+
+== How To Use ==
+
+Run using Ruby version 1.9.3
+Open thestock.txt and enter in each stock you want to search in the format market:ticker
+Each stock must be on a new line.
+
+Run the program now, and after it is completed the file output.txt will display each stock's ticker and a number associated with how positive it is. 
+
+
+The program utilizes multi-threading to help speed up the process, but it does take some time to complete. It downloads all the search results for every stock ticker and compares each word in each of these documents to both Positive.txt and Negative.txt
